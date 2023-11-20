@@ -5,7 +5,7 @@ from threading import Thread
 
 app = Flask(__name__)
 server_ping_url = "http://localhost:5372"
-server_3_url = "http://localhost:6789"
+server_3_url = "http://localhost:8080"
 
 def send_ping():
     while True:

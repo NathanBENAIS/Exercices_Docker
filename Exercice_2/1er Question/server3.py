@@ -20,4 +20,4 @@ def get_server_addresses():
     return json.dumps(server_addresses)
 
 if __name__ == '__main__':
-    app.run(port=6789)
+    app.run(port=8080)

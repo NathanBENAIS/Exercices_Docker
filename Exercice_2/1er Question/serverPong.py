@@ -5,7 +5,7 @@ from threading import Thread
 
 app = Flask(__name__)
 server_pong_url = "http://localhost:4567"
-server_3_url = "http://localhost:6789"
+server_3_url = "http://localhost:8080"
 
 def send_pong():
     while True:
